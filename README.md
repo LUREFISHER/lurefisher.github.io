@@ -50,4 +50,7 @@
     <img src="https://img.icons8.com/color/48/000000/twitter.png" alt="Twitter">
   </a>
   <a class="social-link" href="https://open.spotify.com/user/coolmusicboi" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/spotify.png"
+    <img src="https://img.icons8.com/color/48/000000/spotify.png" alt="Spotify">
+  </a>
+</div>
+<div class="footer fade-in">Made With Love By ChatGPT</div>
