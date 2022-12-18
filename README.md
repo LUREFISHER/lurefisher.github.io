@@ -27,9 +27,22 @@
     font-size: 12px;
     padding: 8px;
   }
+
+  .fade-in {
+    animation: fade-in 0.5s linear;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 </style>
 
-<div>
+<div class="fade-in">
   <a class="social-link" href="https://steamcommunity.com/id/SuperCringeMan" target="_blank">
     <img src="https://img.icons8.com/color/48/000000/steam.png" alt="Steam">
   </a>
@@ -37,7 +50,4 @@
     <img src="https://img.icons8.com/color/48/000000/twitter.png" alt="Twitter">
   </a>
   <a class="social-link" href="https://open.spotify.com/user/coolmusicboi" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/spotify.png" alt="Spotify">
-  </a>
-</div>
-<div class="footer">Made With Love By ChatGPT</div>
+    <img src="https://img.icons8.com/color/48/000000/spotify.png
