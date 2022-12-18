@@ -16,6 +16,17 @@
     height: 48px;
     width: 48px;
   }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+  }
 </style>
 
 <div>
@@ -29,3 +40,4 @@
     <img src="https://img.icons8.com/color/48/000000/spotify.png" alt="Spotify">
   </a>
 </div>
+<div class="footer">Made With Love By ChatGPT</div>
