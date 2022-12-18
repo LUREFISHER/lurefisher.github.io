@@ -1,18 +1,21 @@
 <style>
-.social-link {
-  display: inline-block;
-  margin: 0 8px;
-  transition: transform 0.3s;
-}
+  body {
+    background-color: black;
+  }
+  .social-link {
+    display: inline-block;
+    margin: 0 8px;
+    transition: transform 0.3s;
+  }
 
-.social-link:hover {
-  transform: scale(1.1);
-}
+  .social-link:hover {
+    transform: scale(1.1);
+  }
 
-.social-link img {
-  height: 48px;
-  width: 48px;
-}
+  .social-link img {
+    height: 48px;
+    width: 48px;
+  }
 </style>
 
 <div>
