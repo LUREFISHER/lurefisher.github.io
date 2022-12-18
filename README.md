@@ -15,6 +15,7 @@
   .social-link img {
     height: 48px;
     width: 48px;
+    background-color: transparent;
   }
 
   .footer {
