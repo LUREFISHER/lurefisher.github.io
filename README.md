@@ -41,8 +41,31 @@
       opacity: 1;
     }
   }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 </style>
 <div class="footer fade-in">
+  <div class="dropdown">
+    <a href="#">Games</a>
+    <div class="dropdown-content">
+      <a href="#">Game 1</a>
+      <a href="#">Game 2</a>
+      <a href="#">Game 3</a>
+    </div>
+  </div>
   <div class="fade-in">
     <a class="social-link" href="https://steamcommunity.com/id/SuperCringeMan" target="_blank">
       <img src="https://img.icons8.com/color/48/000000/steam.png" alt="Steam">
