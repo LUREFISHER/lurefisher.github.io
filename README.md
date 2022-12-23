@@ -61,28 +61,19 @@
     color: white;
     font-size: 20px;
   }
+
+  .games-animation {
+    animation: games-animation 0.5s linear;
+  }
+
+  @keyframes games-animation {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(50px, 0);
+    }
+  }
 </style>
 <div class="fade-in">
   <div class="dropdown">
-    <a href="#">Games</a>
-    <div class="dropdown-content">
-      <a href="#">Game 1</a>
-      <a href="#">Game 2</a>
-      <a href="#">Game 3</a>
-    </div>
-  </div>
-</div>
-<div class="footer fade-in">
-  <div class="fade-in">
-    <a class="social-link" href="https://steamcommunity.com/id/SuperCringeMan" target="_blank">
-      <img src="https://img.icons8.com/color/48/000000/steam.png" alt="Steam">
-    </a>
-    <a class="social-link" href="https://twitter.com/BRITAINISFAKE" target="_blank">
-      <img src="https://img.icons8.com/color/48/000000/twitter.png" alt="Twitter">
-    </a>
-    <a class="social-link" href="https://open.spotify.com/user/coolmusicboi" target="_blank">
-      <img src="https://img.icons8.com/color/48/000000/spotify.png" alt="Spotify">
-    </a>
-  </div>
-  Made With Love By ChatGPT
-</div>
