@@ -56,6 +56,11 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  .dropdown a {
+    color: white;
+    font-size: 20px;
+  }
 </style>
 <div class="fade-in">
   <div class="dropdown">
